@@ -12,28 +12,52 @@ from sklearn.metrics import classification_report
 # Sample data - categories: Finance, Tech, Marketing
 data = {
     'text': [
-        "The invoice is due by end of month.",
-        "Deploy the new update to the backend server.",
-        "Our next campaign should focus on social media engagement.",
-        "Quarterly earnings exceeded expectations.",
-        "Fix the bug in the login function.",
-        "Let's design banners for the new product launch.",
-        "The budget needs to be revised before submission.",
-        "Set up the staging environment for testing.",
-        "We should increase SEO spend next quarter."
+        # FINANCE
+        "Submit the invoice by the end of this week.",
+        "The financial report is due tomorrow.",
+        "Please review the Q3 earnings.",
+        "We need to reduce the budget for next month.",
+        "Prepare the tax documents for auditing.",
+        "The balance sheet needs updating.",
+        "Request a wire transfer for the vendor.",
+        "The client is asking about payment terms.",
+        "We exceeded last quarter's revenue target.",
+        "The new pricing model needs approval.",
+
+        # TECH
+        "Deploy the backend code to production.",
+        "Fix the bug in the authentication module.",
+        "Update the system to the latest firmware.",
+        "Schedule server maintenance this weekend.",
+        "Implement the new API for user data.",
+        "The database migration was successful.",
+        "Set up the cloud infrastructure on AWS.",
+        "Debug the mobile app crash issue.",
+        "Integrate the payment gateway this sprint.",
+        "Refactor the code for better performance.",
+
+        # MARKETING
+        "Launch the Instagram ad campaign tomorrow.",
+        "Design banners for the upcoming product launch.",
+        "Update the website SEO with fresh keywords.",
+        "Our branding needs to target Gen Z more.",
+        "Schedule email campaigns for next week.",
+        "The social media reach has grown significantly.",
+        "Prepare the slides for the marketing pitch.",
+        "Let's work with influencers this quarter.",
+        "Analyze the click-through rate from the ads.",
+        "Improve the landing page conversion rate."
     ],
     'label': [
-        "Finance",
-        "Tech",
-        "Marketing",
-        "Finance",
-        "Tech",
-        "Marketing",
-        "Finance",
-        "Tech",
-        "Marketing"
+        "Finance", "Finance", "Finance", "Finance", "Finance",
+        "Finance", "Finance", "Finance", "Finance", "Finance",
+        "Tech", "Tech", "Tech", "Tech", "Tech",
+        "Tech", "Tech", "Tech", "Tech", "Tech",
+        "Marketing", "Marketing", "Marketing", "Marketing", "Marketing",
+        "Marketing", "Marketing", "Marketing", "Marketing", "Marketing"
     ]
 }
+
 
 # Load data into DataFrame
 df = pd.DataFrame(data)
