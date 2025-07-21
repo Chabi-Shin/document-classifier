@@ -33,8 +33,13 @@ python classifier.py
 
 3. Type your own business-related text and see how it's classified!
 
-4. Screenshot: <img width="703" height="655" alt="classifier_screenshot" src="https://github.com/user-attachments/assets/e9514a9e-7dae-48f2-9b04-20605feec592" />
- 
+
+   
+
+
+4. Screenshot: <img width="1378" height="662" alt="classifier_screenshot" src="https://github.com/user-attachments/assets/02c63218-a4a6-48f7-a353-e70526d57713" />
+
+    
 
 ## 📌 Author
 **Jacques-Edgard Bossou**  
